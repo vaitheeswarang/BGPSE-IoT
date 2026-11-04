@@ -1,0 +1,9 @@
+test,comparison,statistic,p,holm_p,median_ratio
+Friedman,all matched methods,31.73333333333332,4.5509138866033683e-05,,
+Wilcoxon signed-rank,BGPSE-IoT-Full vs AES-256-GCM,0.0,0.0625,0.4375,930.3584185207458
+Wilcoxon signed-rank,BGPSE-IoT-Full vs AES-CBC-HMAC-SHA256,0.0,0.0625,0.4375,86.25121500484998
+Wilcoxon signed-rank,BGPSE-IoT-Full vs AES-CTR-HMAC-SHA256,0.0,0.0625,0.4375,149.87344627113146
+Wilcoxon signed-rank,BGPSE-IoT-Full vs CA-ECC-Reference,0.0,0.0625,0.4375,6.381211838394806
+Wilcoxon signed-rank,BGPSE-IoT-Full vs ChaCha20-Poly1305,0.0,0.0625,0.4375,419.4806742852495
+Wilcoxon signed-rank,BGPSE-IoT-Full vs ECC-DynamicSBox-Reference,0.0,0.0625,0.4375,1.258028443012195
+Wilcoxon signed-rank,BGPSE-IoT-Full vs ECIES-P256-AESGCM,0.0,0.0625,0.4375,79.47760469544232

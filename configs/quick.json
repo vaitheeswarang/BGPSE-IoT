@@ -1,0 +1,9 @@
+{
+  "dataset_root": "datasets/demo",
+  "datasets": ["kodak","usc_sipi","bsds500","div2k","medmnist"],
+  "limit_per_dataset": 2,
+  "sizes": [256],
+  "repetitions": 2,
+  "methods": ["AES-256-GCM","ChaCha20-Poly1305","AES-CTR-HMAC-SHA256","AES-CBC-HMAC-SHA256","ECIES-P256-AESGCM","CA-ECC-Reference","ECC-DynamicSBox-Reference"],
+  "ablations": ["core_only","static_sbox","shake_only","no_permutation","single_diffusion","no_outer_aead","no_provenance"]
+}
